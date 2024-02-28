@@ -3,5 +3,5 @@ from django.urls import path,include
 from accountapp import views
 
 urlpatterns = [
-    path('hihi/',views.hi),
+    path('',views.hi),
 ]
